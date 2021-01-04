@@ -5,5 +5,5 @@ from learning_logs import views
 
 urlpatterns = [
     # Домашняя страница
-    path('', views.index)
+    path('', views.index, name='index')
 ]
